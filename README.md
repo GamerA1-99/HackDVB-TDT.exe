@@ -59,4 +59,4 @@ This is a simple C program with no external dependencies. You can compile it on 
 * **gcc -o tdt.exe tdt.c**
 
 
-### **Full credit for the original source code and logic goes to neo7530 and the dvb_tdt project. This repository simply provides a pre-compiled binary and documentation for its integration with the HackDVB GUI.**
+### **Full credit for the original source code and logic goes to [neo7530](https://github.com/neo7530/) and the [dvb_tdt project](https://github.com/neo7530/dvb_tdt). This repository simply provides a pre-compiled binary and documentation for its integration with the [HackDVB GUI](https://github.com/GamerA1-99/HackDVB-GUI) .**
