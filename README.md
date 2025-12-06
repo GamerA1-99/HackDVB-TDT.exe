@@ -9,7 +9,9 @@ This tool is a compiled version of the excellent dvb_tdt project by neo7530, ada
 The tdt executable's sole purpose is to create a continuous stream of MPEG Transport Stream (TS) packets containing TDT and TOT tables.
 
 TDT (Time and Date Table): Contains the current Coordinated Universal Time (UTC).
+
 TOT (Time Offset Table): Contains the TDT information plus the local time offset, allowing receivers to calculate the local time.
+
 These packets are broadcast to a specified UDP port on 127.0.0.1 (localhost).
 
 ## **Why Is This Needed?**
