@@ -27,11 +27,7 @@ The program is controlled via a single command-line argument.
 * **Syntax**
 plaintext
 tdt.exe <port>
-<port>: The UDP port on which to broadcast the TDT/TOT packets.
-Example
-plaintext
-tdt.exe 32000
-This will start broadcasting TDT/TOT packets to udp://127.0.0.1:32000. The process will run until it is manually terminated (e.g., by pressing Ctrl+C or by the calling application).
+<port>: The UDP port on which to broadcast the TDT/TOT packets. Example plaintext tdt.exe 32000 This will start broadcasting TDT/TOT packets to udp://127.0.0.1:32000. The process will run until it is manually terminated (e.g., by pressing Ctrl+C or by the calling application).
 
 * **Integration with TSDuck**
 This tool is designed to be used with a transport stream processor like TSDuck. The main broadcast application (e.g., HackDVB GUI) pipes its primary stream into TSDuck, which then uses the datainject plugin to merge the time packets from this tool into the final multiplex.
