@@ -41,10 +41,9 @@ This tool is designed to be used with a transport stream processor like TSDuck. 
 * **The 'tsp' command receives a stream from another source (like ffmpeg)**
 **and injects the TDT/TOT packets from this tool before outputting to hardware.**
 
-* **tsp -I file - \
-    -P datainject --udp --local-port 32000 --pid 0x14 \ -O dektec ...**
+* **tsp -I file - \ -P datainject --udp --local-port 32000 -pid 0x14 \ -O dektec ...**
 
-**--local-port 32000: Tells TSDuck to listen on the same port tdt.exe is broadcasting to.
+* **--local-port 32000: Tells TSDuck to listen on the same port tdt.exe is broadcasting to.
 --pid 0x14: Injects the packets into PID 20 (0x14), the standard PID for TDT/TOT.
 Building from Source
 This is a simple C program with no external dependencies. You can compile it on Windows or Linux using GCC or a similar C compiler.**
